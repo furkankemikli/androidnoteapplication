@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:id="@+id/noteView">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5px"
+        android:padding="5px"
+        android:id="@+id/imgNote" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFACD">
+
+        <TextView
+            android:id="@+id/noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:text="Title"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/noteDetail"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Detail"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/noteDate"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Date"
+            android:textSize="15sp"
+            />
+        <View
+            android:id="@+id/noteBorder"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a0a0a0"/>
+    </LinearLayout>
+
+</LinearLayout>
